@@ -40,7 +40,7 @@ const (
 	bindPort = "53682"
 
 	// bindAddress is binding for local webserver when active
-	bindAddress = "127.0.0.1:" + bindPort
+	bindAddress = "0.0.0.0:" + bindPort
 
 	// RedirectURL is redirect to local webserver when active
 	RedirectURL = "http://" + bindAddress + "/"
